@@ -6,4 +6,4 @@ services:
       - 80:80
       - 443:1443
   getserver_skiff:
-    image: skiffax/client_get_url:latest
+    image: skiffax/client_get_url:1.7

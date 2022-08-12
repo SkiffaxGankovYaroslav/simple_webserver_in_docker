@@ -1,13 +1,13 @@
 #!/bin/bash
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!добавить цикл
-#first variant
 
-for i in {1..5} ; do
-    temparray[$i]=$i*$i
-    echo "position $i: ${temparray[$i]}"
-done
-exit
+#следующий цикл не пригодился
+# for i in {1..5} ; do
+#     temparray[$i]=$i*$i
+#     echo "position $i: ${temparray[$i]}"
+# done
+# exit
 
+#старт основного бесконечного цикла
 while true; do
     #ip_to_get=192.168.42.228
     ip_to_get=localhost
