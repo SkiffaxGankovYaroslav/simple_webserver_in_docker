@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  webserver_skiff:
+    image: skiffax/webserverskiff:latest
+    ports:
+      - 80:80
+      - 443:1443
+  getserver_skiff:
+    image: skiffax/client_get_url:latest
